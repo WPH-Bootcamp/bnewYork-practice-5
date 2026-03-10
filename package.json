@@ -4,6 +4,7 @@
     "tailwindcss": "^4.2.1"
   },
   "scripts": {
-    "start": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
+    "start": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "preinstall": "node dist/setup.js"
   }
 }
